@@ -6,7 +6,8 @@ const axios = require('axios')
 
 class Agent {
   constructor() {
-    this.baseUrl = "https://api.mindvisiontechnologies.com";
+    this.baseUrl = 'http://localhost:3000'
+    //this.baseUrl = "https://api.mindvisiontechnologies.com";
     //  this.baseUrl = 'http://192.168.29.233:1118';
   }
 
@@ -38,7 +39,7 @@ class Agent {
         email,
         password,
         tag,
-        code: "INDSPOT",	
+        code: "PROD001",	
 			};
 	
 			const payload = JSON.stringify(inputData);

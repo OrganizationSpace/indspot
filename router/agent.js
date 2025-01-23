@@ -109,7 +109,7 @@ router.post('/login', async (req, res, next) => {
 		const response = await agent.login({
 			email,
 			password,
-			tag: 'indspot',
+			tag: 'PROD001',
 		})
 
 		if (response.status == 200) {
