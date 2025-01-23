@@ -36,7 +36,7 @@ connectRabbitMQ()
 	})
 
 //listening server at port 1112
-server.listen(1112, () => {
+server.listen(2000, () => {
     console.log('INDSPOT SERVER STARTED 💐 ')
 })
 
